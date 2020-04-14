@@ -1,0 +1,23 @@
+{
+    "name": "sveselov/image-crawler",
+    "description": "Crawler for dowmload images from website",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "stanislav",
+            "email": "kaselrao@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Crawler\\" : "src/"
+        },
+        "files": [
+            "src/Helpers/simple_html_dom.php"
+        ]
+    }
+}
