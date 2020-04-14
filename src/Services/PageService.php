@@ -3,10 +3,9 @@
 namespace Crawler\Services;
 
 use Crawler\Interfaces\PageInterface;
-use Crawler\Patterns\Singleton;
 use Crawler\Services\UrlService\HrefService;
 
-class PageService extends Singleton implements PageInterface
+class PageService implements PageInterface
 {
     /**
      * @var array

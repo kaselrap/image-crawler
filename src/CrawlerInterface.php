@@ -10,5 +10,5 @@ interface CrawlerInterface
      *
      * @return mixed
      */
-    public function parse(string $url, bool $isParent = true);
+    public function run(string $url = '', bool $isParent = true);
 }

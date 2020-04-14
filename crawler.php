@@ -10,6 +10,6 @@ if (filter_var($argv[1], FILTER_VALIDATE_URL) === FALSE) {
 
 require './vendor/autoload.php';
 
-$pageService = \Crawler\Services\PageService::getInstance();
+$pageService = new \Crawler\Services\PageService();
 $crawler = new \Crawler\Crawler($pageService, $argv[1]);
-$crawler->parse($argv[1]);
+$crawler->run();
