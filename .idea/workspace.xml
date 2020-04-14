@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a604a740-a4a9-4332-8d7c-71b10e01a728" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/crawler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Crawler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CrawlerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/PageInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/Singleton.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/ImageService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/PageService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/UrlService/HrefService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/UrlService/SrcService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/UrlService/UrlService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helpers/simple_html_dom.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +19,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Crawler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="60" column="87" selection-start-line="60" selection-start-column="87" selection-end-line="60" selection-end-column="87" />
+            <state relative-caret-position="1005">
+              <caret line="67" selection-start-line="67" selection-end-line="68" />
               <folding>
                 <element signature="e#27#64#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -53,15 +63,6 @@
               <folding>
                 <element signature="e#36#73#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Services/ImageService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
@@ -101,15 +102,15 @@
         <option value="$PROJECT_DIR$/src/Services/UrlService.php" />
         <option value="$PROJECT_DIR$/src/Services/UrlService/SrcService.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Interfaces/PageInterface.php" />
         <option value="$PROJECT_DIR$/src/CrawlerInterface.php" />
         <option value="$PROJECT_DIR$/src/Services/UrlService/HrefService.php" />
-        <option value="$PROJECT_DIR$/crawler.php" />
         <option value="$PROJECT_DIR$/src/Services/PageService.php" />
         <option value="$PROJECT_DIR$/src/Services/UrlService/UrlService.php" />
-        <option value="$PROJECT_DIR$/src/Crawler.php" />
         <option value="$PROJECT_DIR$/src/Services/ImageService.php" />
+        <option value="$PROJECT_DIR$/src/Crawler.php" />
+        <option value="$PROJECT_DIR$/crawler.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -150,13 +151,7 @@
             <path>
               <item name="image-crawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="image-crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="image-crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="image-crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="www.entrepreneur.com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,12 +204,12 @@
       <updated>1578300990039</updated>
       <workItem from="1578300991326" duration="14267000" />
       <workItem from="1578637707352" duration="29000" />
-      <workItem from="1586861825501" duration="8161000" />
+      <workItem from="1586861825501" duration="8365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22457000" />
+    <option name="totallyTimeSpent" value="22661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="22" width="1928" height="1020" extended-state="6" />
@@ -261,13 +256,6 @@
     <entry file="file://$PROJECT_DIR$/public/images/prorok.de/vihodest1120.jpg" />
     <entry file="file://$PROJECT_DIR$/public/images/prorok.de/kurs-djona-pola-djeksona.jpg" />
     <entry file="file://$PROJECT_DIR$/public/images/prorok.de/Jesus_King.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/Helpers/simple_html_dom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="2332" column="46" lean-forward="true" selection-start-line="2332" selection-start-column="46" selection-end-line="2332" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -311,13 +299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Services/UrlService/HrefService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -353,35 +334,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/PageService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#36#73#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Crawler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="60" column="87" selection-start-line="60" selection-start-column="87" selection-end-line="60" selection-end-column="87" />
-          <folding>
-            <element signature="e#27#64#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/www.entrepreneur.com/20160721060814-ENT-logo-white.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/www.entrepreneur.com/20200407154903-GettyImages-1153817925.jpeg">
       <provider selected="true" editor-type-id="images" />
@@ -400,8 +354,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Services/ImageService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="515">
           <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/PageService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#36#73#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/www.entrepreneur.com/20190621223433-spray-logo-300-300.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/www.entrepreneur.com/20181206124414-BookaTime-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/www.entrepreneur.com/20191121203138-CTI300x300.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Crawler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" selection-start-line="67" selection-end-line="68" />
+          <folding>
+            <element signature="e#27#64#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helpers/simple_html_dom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34320">
+          <caret line="2332" column="46" lean-forward="true" selection-start-line="2332" selection-start-column="46" selection-end-line="2332" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>

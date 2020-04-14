@@ -135,23 +135,6 @@ abstract class UrlService
     }
 
     /**
-     * @return UrlService
-     */
-    protected function buildUrl(): self
-    {
-        $this->setSrc(
-            http_build_url(
-                $this->url,
-                [
-                    'path' => $this->buildPath(),
-                ]
-            )
-        );
-
-        return $this;
-    }
-
-    /**
      * @return string
      */
     protected function buildPath(): string

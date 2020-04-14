@@ -10,11 +10,7 @@ class HrefService extends UrlService
     public function build(): UrlService
     {
         if ($this->checkHttpExists()) {
-            if (extension_loaded('http')) {
-                $this->buildUrl();
-            } else {
-                $this->generate();
-            }
+            $this->generate();
         }
 
         return $this;

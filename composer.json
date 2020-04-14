@@ -15,9 +15,6 @@
     "autoload": {
         "psr-4": {
             "Crawler\\" : "src/"
-        },
-        "files": [
-            "src/Helpers/simple_html_dom.php"
-        ]
+        }
     }
 }
